@@ -14,6 +14,8 @@
 		28012BFA1BD628E000401711 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28012BF91BD628E000401711 /* Images.xcassets */; };
 		28012BFD1BD628E000401711 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28012BFB1BD628E000401711 /* LaunchScreen.xib */; };
 		28012C091BD628E000401711 /* TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28012C081BD628E000401711 /* TimeTests.m */; };
+		28012C131BD640CB00401711 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28012C121BD640CB00401711 /* AVFoundation.framework */; };
+		28012C151BD646C400401711 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28012C141BD646C400401711 /* test.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		28012C021BD628E000401711 /* TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28012C071BD628E000401711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28012C081BD628E000401711 /* TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTests.m; sourceTree = "<group>"; };
+		28012C121BD640CB00401711 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		28012C141BD646C400401711 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28012C131BD640CB00401711 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		28012BE01BD628E000401711 = {
 			isa = PBXGroup;
 			children = (
+				28012C121BD640CB00401711 /* AVFoundation.framework */,
 				28012BEB1BD628E000401711 /* Time */,
 				28012C051BD628E000401711 /* TimeTests */,
 				28012BEA1BD628E000401711 /* Products */,
@@ -81,6 +87,7 @@
 		28012BEB1BD628E000401711 /* Time */ = {
 			isa = PBXGroup;
 			children = (
+				28012C141BD646C400401711 /* test.mp3 */,
 				28012BF01BD628E000401711 /* AppDelegate.h */,
 				28012BF11BD628E000401711 /* AppDelegate.m */,
 				28012BF31BD628E000401711 /* ViewController.h */,
@@ -201,6 +208,7 @@
 			files = (
 				28012BF81BD628E000401711 /* Main.storyboard in Resources */,
 				28012BFD1BD628E000401711 /* LaunchScreen.xib in Resources */,
+				28012C151BD646C400401711 /* test.mp3 in Resources */,
 				28012BFA1BD628E000401711 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
